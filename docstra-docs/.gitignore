@@ -18,6 +18,12 @@
 # Coverage directory used by testing tools
 /coverage
 
+# Environment
+.env
+.env.*
+!.env.example
+!.env*.example
+
 # Misc
 .DS_Store
 *.pem
